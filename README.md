@@ -17,3 +17,32 @@ You need a C compiler installed on your system (such as `gcc`, `clang`, or `msvc
 1. **Clone the repository:**
    ```bash
    git clone github.com
+
+
+
+
+<h1>----------------------------------------------------------------------</h1>
+# Celsius to Fahrenheit Converter
+
+A simple C program that takes a temperature input in Celsius and converts it to Fahrenheit using a modular function.
+
+## 🚀 Features
+* **Modular Design:** Uses a separate function `temp()` for calculation.
+* **Precision:** Uses `float` data types to handle decimal values.
+* **User-Friendly:** Simple command-line interface for input and output.
+
+## 🛠️ How to Run
+1.  **Requirement:** Ensure you have a C compiler like [GCC](gcc.gnu.org) installed.
+2.  **Compile:**
+    ```bash
+    gcc main.c -o converter
+    ```
+3.  **Execute:**
+    ```bash
+    ./converter
+    ```
+
+## 📝 Fixed Logic
+In C, dividing two integers like `9/5` results in `1`. To get the correct factor of `1.8`, we use:
+```c
+float f = (c * (9.0 / 5.0)) + 32;
