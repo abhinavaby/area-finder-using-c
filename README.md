@@ -62,4 +62,13 @@ This project demonstrates the use of:
 The program assumes each subject is out of 100 marks. The formula used is:
 ```text
 Percentage = ((Science + Maths + Sanskrit) / 300) * 100
+```
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
+
+<h1>#4 Fibonacci Sequence Generator in C</h1>
+A lightweight C program that calculates and prints the Fibonacci sequence up to a user-defined limit.<br>
+🚀 How It Works <br>
+The program uses a simple iterative approach with three integer variables (b, c, and d) to calculate the next number in the sequence by adding the two preceding ones.
+
 
